@@ -1,7 +1,4 @@
 <script setup>
-import { ref } from "vue";
-import { VoteItem } from "~~/.nuxt/components";
-var VotePackage = ref([VoteItem]);
 </script>
 <template>
   <div class="h-full flex justify-center items-center">
