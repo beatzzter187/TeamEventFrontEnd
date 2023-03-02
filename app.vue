@@ -17,7 +17,7 @@
         >
       </div>
       <div class="flex mx-20 m-5 my-10">
-        <button class="bg-lime-300 rounded grow py-5">C</button>
+        <NuxtLink to="/AllEventsView" class="bg-lime-300 rounded grow text-center py-5">C</NuxtLink>
       </div>
     </nav>
     <div class="bg-slate-500 grow content-center">
