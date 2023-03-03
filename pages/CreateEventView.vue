@@ -1,4 +1,4 @@
-<script>
+<script setup>
 const eventName = ref("");
 const Ingredient = ref("");
 const datum = ref("");
@@ -9,15 +9,15 @@ const submit = async () => {
     headers: {
       "Content-Type": "application/json",
     },
-    method: "post",
-    body: {
+    method: "POST",
+    body: JSON.stringify({
       details: {
         creator: "simon",
-        date: datum.value + zeit.value,
+        date: datum.value.toString(),
         ingredients: [Ingredient.value],
         name: eventName.value,
       },
-    },
+    }),
   });
   const body = await result.json();
   console.log(body);

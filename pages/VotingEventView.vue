@@ -1,6 +1,4 @@
 <script setup>
-// import { ref } from "vue";
-// var VotePackage = ref([VoteItem]);
 </script>
 <template>
   <div class="h-full flex justify-center items-center">
