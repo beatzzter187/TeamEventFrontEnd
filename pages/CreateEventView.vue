@@ -43,16 +43,10 @@ const submit = async () => {
     <div class="m-5 font-bold text-xl">
       <label>Ingredient 1</label>
     </div>
-    <div class="m-5 w-2/4 h-10">
-      <input
-        class="w-full h-full placeholder-gray-500 rounded p-4"
-        v-model="Ingredient"
-        placeholder="Sausage"
-      />
-    </div>
   </div>
   <div>
     <button
+      @click="addIngredient"
       class="w-20 h-20 text-2xl font-bold rounded-full bg-slate-600 flex justify-center items-center m-5 content-center"
     >
       +
