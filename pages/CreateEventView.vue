@@ -51,8 +51,10 @@ const submit = async () => {
       />
     </div>
   </div>
-  <div class="p-4">
-    <button class="w-20 h-20 text-2xl font-bold rounded-full bg-slate-600">
+  <div>
+    <button
+      class="w-20 h-20 text-2xl font-bold rounded-full bg-slate-600 flex justify-center items-center m-5 content-center"
+    >
       +
     </button>
   </div>
@@ -80,7 +82,11 @@ const submit = async () => {
       />
     </div>
   </div>
-  <div>
-    <button @click="submit">submit</button>
+  <div class="w-1/12 m-5 my-10">
+    <div
+      class="border-2 border-slate-900 rounded font-bold text-xl text-center bg-slate-600 py-2"
+    >
+      <button>Submit</button>
+    </div>
   </div>
 </template>
